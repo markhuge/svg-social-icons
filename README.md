@@ -2,6 +2,8 @@
 
 SVG social icons based (mostly) on Squarespace icons.
 
+Check out the [project page](http://markhuge.github.io/svg-social-icons/) for a demo.
+
 ## Abstract
 
 This is an improvement on another module I had been using, that had a lot of dependencies and was kind of a pain to use.
