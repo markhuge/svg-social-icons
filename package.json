@@ -1,0 +1,21 @@
+{
+  "name": "svg-social-icons",
+  "version": "1.0.0",
+  "description": "svg icons for social networks",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markhuge/svg-social-icons.git"
+  },
+  "keywords": [
+    "svg",
+    "icon",
+    "social"
+  ],
+  "author": "Mark Wilkerson <mark@markwilkerson.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markhuge/svg-social-icons/issues"
+  },
+  "homepage": "https://github.com/markhuge/svg-social-icons#readme"
+}
