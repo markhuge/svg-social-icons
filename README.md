@@ -28,13 +28,10 @@ console.log(icons('npm'));
 Outputs:
 ```xml
 <svg class="social-svg" viewBox="0 0 64 64">
-  <g class="social-svg-background">
-    <circle cx="32" cy="32" r="31"></circle>
-  </g>
   <g class="social-svg-icon">
     <path d="M18.9,20v25.6H32V25.5h7.5V46h5.6V20H18.9z"></path>
   </g>
-  <g class="social-svg-mask" style="fill:#cb3837">
+  <g class="social-svg-background" style="fill:#cb3837">
     <path d="M68,0v68H0V0H68z M18.9,20v25.6H32V25.5h7.5V46h5.6V20H18.9z"></path>
   </g>
 </svg>
@@ -52,8 +49,7 @@ Some helper classes are attached to svg elements. You can pass in your own class
 {
   svgClass:         'social-svg', //the <svg>
   backgroundClass:  'social-svg-background', // the svg background
-  iconClass:        'social-svg-icon', // the svg icon path
-  maskClass:        'social-svg-mask' // the svg mask path
+  iconClass:        'social-svg-icon' // the svg icon path
 }
 ```
 
@@ -68,13 +64,10 @@ console.log(icons('npm', { svgClass: 'MY-SVG-CLASS', iconClass: 'MY-ICON-CLASS' 
 Outputs:
 ```xml
 <svg class="MY-SVG-CLASS" viewBox="0 0 64 64">
-  <g class="social-svg-background">
-    <circle cx="32" cy="32" r="31"></circle>
-  </g>
   <g class="MY-ICON-CLASS">
     <path d="M18.9,20v25.6H32V25.5h7.5V46h5.6V20H18.9z"></path>
   </g>
-  <g class="social-svg-mask" style="fill:#cb3837">
+  <g class="social-svg-background" style="fill:#cb3837">
     <path d="M68,0v68H0V0H68z M18.9,20v25.6H32V25.5h7.5V46h5.6V20H18.9z"></path>
   </g>
 </svg>
