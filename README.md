@@ -1,4 +1,4 @@
-# svg-social-icons
+# [svg-social-icons](http://markhuge.github.io/svg-social-icons/)
 
 SVG social icons based (mostly) on Squarespace icons.
 
